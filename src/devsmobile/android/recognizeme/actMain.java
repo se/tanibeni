@@ -15,6 +15,7 @@ import android.media.MediaPlayer;
 import android.media.MediaPlayer.OnCompletionListener;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Vibrator;
 import android.provider.BaseColumns;
 import android.provider.Contacts.People;
 import android.provider.ContactsContract;
@@ -116,6 +117,12 @@ public class actMain extends Activity implements OnClickListener {
         startActivityForResult(i, Code);
 
         //PlaySound(R.raw.talk);
+
+        // Get instance of Vibrator from current Context
+        Vibrator v = (Vibrator) getSystemService(getApplicationContext().VIBRATOR_SERVICE);
+
+        // Vibrate for 300 milliseconds
+        v.vibrate(100);
     }
 
     public List<RMContact> getContact(String displayName) {

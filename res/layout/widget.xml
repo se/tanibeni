@@ -9,7 +9,8 @@
         android:layout_marginBottom="22dip"
         android:layout_marginTop="22dip"
         android:layout_marginLeft="10dip"
-        android:layout_marginRight="10dip">
+        android:layout_marginRight="10dip"
+        android:clickable="true">
 
     <ImageButton
             android:layout_width="40dip"
