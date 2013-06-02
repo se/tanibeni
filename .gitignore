@@ -1,3 +1,11 @@
+#############
+## ANDROID ##
+#############
+*.apk
+*.keystore
+.idea
+#############
+
 #################
 ## Eclipse
 #################
@@ -15,8 +23,13 @@ local.properties
 .classpath
 .settings/
 .loadpath
+
+#############
+## ANDROID ##
+#############
 *.apk
 *.keystore
+#############
 
 # External tool builders
 .externalToolBuilders/
