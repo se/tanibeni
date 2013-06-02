@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/btnRecognizeMe"
+        android:background="#484848"
+        android:layout_marginBottom="22dip"
+        android:layout_marginTop="22dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip">
+
+    <ImageButton
+            android:layout_width="40dip"
+            android:layout_height="fill_parent"
+            android:id="@+id/ibtnRecognizeMe"
+            android:src="@drawable/microphone"
+            android:scaleType="fitCenter"
+            android:padding="8dip"
+            android:adjustViewBounds="false"
+            android:baselineAlignBottom="false"
+            android:clickable="false"
+            android:cropToPadding="false"
+            android:contentDescription=""
+            android:layout_gravity="center_vertical|right"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentRight="true"
+            android:background="#484848"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Tanı Beni"
+            android:id="@+id/textView"
+            android:gravity="center|left"
+            android:padding="10dip"
+            android:textColor="#fff"
+            android:layout_gravity="left|center_vertical"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentBottom="false"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_alignParentRight="false"
+            android:clickable="false"/>
+</RelativeLayout>
